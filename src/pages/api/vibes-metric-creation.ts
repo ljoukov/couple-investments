@@ -1,10 +1,8 @@
 import axios from 'axios';
-// Or use the official OpenAI SDK:
-// import OpenAI from 'openai';
 
 // --- Configuration ---
 const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
-const OPENAI_MODEL = 'gpt-4o-mini'; // Or 'gpt-4o', 'gpt-3.5-turbo' etc. Cost/capability trade-off.
+const OPENAI_MODEL = 'gpt-4o-mini';
 
 // --- Exposed API Definitions (For the OpenAI Prompt) ---
 // These MUST match the functions available inside your secure V8 isolate environment.

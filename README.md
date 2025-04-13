@@ -45,6 +45,11 @@ OpenAI is used to convert natural language into code.
 
 FinnHub is used to load stocks prices.
 
+## Code
+
+[vibes-metric-creation.ts](https://github.com/ljoukov/couple-investments/blob/main/src/pages/api/vibes-metric-creation.ts)
+[simulator](https://github.com/ljoukov/couple-investments/blob/main/src/pages/api/simulator.ts)
+
 ## Negotiation Sample
 
 🔊 ✨ Switch ON the AUDIO 🎧 ✅:
