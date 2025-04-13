@@ -9,14 +9,14 @@
 - Virtually ALL couples have to manage joint finances
 
 - Every couple we interviewed have different investment preferences
-(eg “single stock” vs “broad strategy”)
+  (eg “single stock” vs “broad strategy”)
 
 - CoupleVest helps resolve this by:
-1 making ideas concrete:
-    Uses LLM for natural language (conviction) -> maths (code) and chart
+  1 making ideas concrete:
+  Uses LLM for natural language (conviction) -> maths (code) and chart
 
 2 simulator:
-    Uses reasoning LLM to find similar situation in the past and historical data for simulation
+Uses reasoning LLM to find similar situation in the past and historical data for simulation
 
 ### Tech
 
@@ -31,6 +31,14 @@ into code, code is executed producing charts or tables.
 - Code is then executed to without any LLMs (aka verifiable AI)
 
 Voyager paper by NVidia et al [https://voyager.minedojo.org/](https://voyager.minedojo.org/)
+
+## Running
+
+Create .env file with
+
+```sh
+FINNHUB_API_KEY=your_finnhub_api_key_here
+```
 
 ## Negotiation Sample
 
