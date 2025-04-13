@@ -8,17 +8,20 @@
 
 ### Problem:
 
-- Virtually ALL couples have to manage joint finances
+Virtually ALL couples have to manage joint finances
 
 - Every couple we interviewed have different investment preferences
   (eg “single stock” vs “broad strategy”)
 
 - CoupleVest helps resolve this by:
-  1 making ideas concrete:
+
+  - making ideas concrete:
+
   Uses LLM for natural language (conviction) -> maths (code) and chart
 
-2 simulator:
-Uses reasoning LLM to find similar situation in the past and historical data for simulation
+  - Simulator:
+
+  Uses reasoning LLM to find similar situation in the past and historical data for simulation
 
 ### Tech
 
