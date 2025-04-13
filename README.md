@@ -4,6 +4,8 @@
 
 ## CoupleVest: Help Couples Agree on Investment
 
+[AGI House: AI x Fintech Build Day](https://app.agihouse.org/events/ai-fintech-20250412)
+
 ### Problem:
 
 - Virtually ALL couples have to manage joint finances
