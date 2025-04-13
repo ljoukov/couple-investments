@@ -1,8 +1,13 @@
 import { ChartArea } from "@/components/chart-area";
 import { ChartBar } from "@/components/chart-bar";
-import { ChartLine } from "@/components/chart-line";
 import { ChartPie } from "@/components/chart-pie";
 import { Geist, Geist_Mono } from "next/font/google";
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "@/components/ui/tabs"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,11 +28,26 @@ export default function Home() {
         </div>
       </header>
       <main className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <ChartBar />
-          <ChartArea />
-          <ChartPie />
-        </div>
+        <Tabs defaultValue="her" className="w-full">
+          <TabsList className="grid w-full grid-cols-2 mb-8">
+            <TabsTrigger value="her">Her</TabsTrigger>
+            <TabsTrigger value="him">Him</TabsTrigger>
+          </TabsList>
+          <TabsContent value="her">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <ChartBar />
+              <ChartArea />
+              <ChartPie />
+            </div>
+          </TabsContent>
+          <TabsContent value="him">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <ChartBar />
+              <ChartArea />
+              <ChartPie />
+            </div>
+          </TabsContent>
+        </Tabs>
       </main>
     </div>
   );
