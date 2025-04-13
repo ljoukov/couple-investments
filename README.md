@@ -47,8 +47,9 @@ FinnHub is used to load stocks prices.
 
 ## Code
 
-[vibes-metric-creation.ts](https://github.com/ljoukov/couple-investments/blob/main/src/pages/api/vibes-metric-creation.ts)
-[simulator](https://github.com/ljoukov/couple-investments/blob/main/src/pages/api/simulator.ts)
+1. [vibes-metric-creation.ts](https://github.com/ljoukov/couple-investments/blob/main/src/pages/api/vibes-metric-creation.ts)
+
+2. [simulator.ts](https://github.com/ljoukov/couple-investments/blob/main/src/pages/api/simulator.ts)
 
 ## Negotiation Sample
 
