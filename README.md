@@ -1,40 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+[Slides]([https://nextjs.org](https://docs.google.com/presentation/d/1FqsUKDC_I9WGmk3FYcngcpW-bZZqL0hpEo-0RNdobKA/edit#slide=id.p))
 
-## Getting Started
 
-First, run the development server:
+## CoupleVest: Help Couples Agree on Investment
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Problem:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Virtually ALL couples have to manage joint finances
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Every couple we interviewed have different investment preferences
+(eg “single stock” vs “broad strategy”)
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- CoupleVest helps resolve this by:
+1 making ideas concrete:
+    Uses LLM for natural language (conviction) -> maths (code) and chart
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+2 simulator:
+    Uses reasoning LLM to find similar situation in the past and historical data for simulation
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Tech
 
-## Learn More
+LLM is used to convert natural language command like
 
-To learn more about Next.js, take a look at the following resources:
+     - “show me Tesla stock price in Euro”
+     - “Apple always drops after earnings”
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+into code, code is executed producing charts or tables.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Code is separately explained in natural language.
+- Code is then executed to without any LLMs (aka verifiable AI)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Voyager paper by NVidia et al [https://voyager.minedojo.org/](https://voyager.minedojo.org/)
