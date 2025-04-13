@@ -22,12 +22,10 @@ Uses reasoning LLM to find similar situation in the past and historical data for
 
 ### Tech
 
-LLM is used to convert natural language command like
+LLM is used to convert natural language ideas into code, eg:
 
      - “show me Tesla stock price in Euro”
      - “Apple always drops after earnings”
-
-into code, code is executed producing charts or tables.
 
 - Code is separately explained in natural language using LLM
 - Code is then executed to produce charts and tables without any at runtime LLMs (aka verifiable AI)
