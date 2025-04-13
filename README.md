@@ -27,8 +27,10 @@ LLM is used to convert natural language ideas into code, eg:
      - “show me Tesla stock price in Euro”
      - “Apple always drops after earnings”
 
+Verifiable AI approach (aka avoid LLM for traiding, only for code<->natural language translation)
+
 - Code is separately explained in natural language using LLM
-- Code is then executed to produce charts and tables without any at runtime LLMs (aka verifiable AI)
+- Code is then executed to produce charts and tables without any at runtime LLMs
 
 Inspiration: Voyager paper by NVidia et al [https://voyager.minedojo.org/](https://voyager.minedojo.org/)
 
