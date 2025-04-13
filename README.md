@@ -36,7 +36,9 @@ Voyager paper by NVidia et al [https://voyager.minedojo.org/](https://voyager.mi
 
 ## Negotiation Sample
 
-AUDIO: Uploading output.mp4…
+🔊 ✨ Switch ON the AUDIO 🎧 ✅:
+
+https://github.com/user-attachments/assets/79f96d90-5a42-4d45-80b5-7dc5f2f37fac
 
 ## Screenshots
 
