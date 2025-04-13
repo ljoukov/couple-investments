@@ -1,4 +1,4 @@
-[Slides]([https://nextjs.org](https://docs.google.com/presentation/d/1FqsUKDC_I9WGmk3FYcngcpW-bZZqL0hpEo-0RNdobKA/edit#slide=id.p))
+[Slides](https://docs.google.com/presentation/d/1FqsUKDC_I9WGmk3FYcngcpW-bZZqL0hpEo-0RNdobKA/edit#slide=id.p)
 
 
 ## CoupleVest: Help Couples Agree on Investment
