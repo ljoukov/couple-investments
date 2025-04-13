@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/5f1bad66-c84f-4e55-9055-0d986e1b926e
 [Slides](https://docs.google.com/presentation/d/1FqsUKDC_I9WGmk3FYcngcpW-bZZqL0hpEo-0RNdobKA/edit#slide=id.p)
 
 ![couple-bg](https://github.com/user-attachments/assets/112a45c0-6429-4621-9946-5374c13eb0d2)
