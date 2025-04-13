@@ -29,8 +29,8 @@ LLM is used to convert natural language command like
 
 into code, code is executed producing charts or tables.
 
-- Code is separately explained in natural language.
-- Code is then executed to without any LLMs (aka verifiable AI)
+- Code is separately explained in natural language using LLM
+- Code is then executed to produce charts and tables without any at runtime LLMs (aka verifiable AI)
 
 Inspiration: Voyager paper by NVidia et al [https://voyager.minedojo.org/](https://voyager.minedojo.org/)
 
