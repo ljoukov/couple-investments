@@ -37,8 +37,13 @@ Voyager paper by NVidia et al [https://voyager.minedojo.org/](https://voyager.mi
 Create .env file with
 
 ```sh
+OPENAI_API_KEY=your_openai_api_key_here
 FINNHUB_API_KEY=your_finnhub_api_key_here
 ```
+
+OpenAI is used to convert natural language into code.
+
+FinnHub is used to load stocks prices.
 
 ## Negotiation Sample
 
