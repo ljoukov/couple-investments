@@ -15,13 +15,9 @@ Virtually ALL couples have to manage joint finances
 
 - CoupleVest helps resolve this by:
 
-  - making ideas concrete:
+  - making ideas concrete: uses LLM for natural language (conviction) -> maths (code) and chart
 
-  Uses LLM for natural language (conviction) -> maths (code) and chart
-
-  - Simulator:
-
-  Uses reasoning LLM to find similar situation in the past and historical data for simulation
+  - Simulator: uses reasoning LLM to find similar situation in the past and historical data for simulation
 
 ### Tech
 
