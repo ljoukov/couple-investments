@@ -32,7 +32,7 @@ into code, code is executed producing charts or tables.
 - Code is separately explained in natural language.
 - Code is then executed to without any LLMs (aka verifiable AI)
 
-Voyager paper by NVidia et al [https://voyager.minedojo.org/](https://voyager.minedojo.org/)
+Inspiration: Voyager paper by NVidia et al [https://voyager.minedojo.org/](https://voyager.minedojo.org/)
 
 ## Running
 
